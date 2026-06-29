@@ -7,7 +7,7 @@ json:
 {
   "notifications": [
     {
-      "id": "user_id",
+      "id": "uuid",
       "type": "Placement",
       "message": "Google is hiring",
       "isRead": false,
@@ -17,3 +17,4 @@ json:
 }
 For realtime I would use WebSockets When a new notification is created on the backend
 the server pushes it directly to the connected student's browser without needing them to refresh.
+
